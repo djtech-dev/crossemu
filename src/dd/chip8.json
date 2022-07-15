@@ -1,0 +1,22 @@
+{
+    "cpus": [
+        {
+            "model": "chip8_cpu",
+            "reduced_clock_speed": 0
+        }
+    ],
+    "board": "chip8_board",
+    "audio": "chip8_audio",
+    "mmaps": [],
+    "modules": [],
+
+    "bios": {
+        "origin": "crossemu",
+        "name": "universal_bios",
+        "supported_extensions": [".crossemu.json", ".ch8"]
+    },
+    "display": {
+        "width": "64",
+        "height": "32"
+    }
+}
